@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MkDocs build output
+dist/
+site/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local

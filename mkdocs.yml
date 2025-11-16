@@ -1,0 +1,60 @@
+site_name: Whocares Amateur Radio Group
+site_url: https://whocaresradio.com/docs
+site_description: Documentation for the Whocares Amateur Radio Group
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: indigo
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - General:
+    - general/index.md
+  - How-To Guides:
+    - howto/index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/solid/radio
+      link: https://whocaresradio.com
