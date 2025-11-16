@@ -31,10 +31,13 @@ theme:
 
 nav:
   - Home: index.md
+  - Allstar Hub: https://asl3.whocaresradio.com
   - General:
-    - general/index.md
+    - Overview: general/index.md
   - How-To Guides:
-    - howto/index.md
+    - Overview: howto/index.md
+    - FTX-1 and WSJTX: howto/ftx1-wsjtx-cachyos/index.md
+    - Sunshine and Moonlight: howto/sunshine-and-moonlight/index.md
 
 markdown_extensions:
   - pymdownx.highlight:

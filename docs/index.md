@@ -8,10 +8,10 @@ The Whocares Amateur Radio Group is dedicated to promoting amateur radio and pro
 
 ## Documentation Sections
 
-### [General](general/)
-General information about the club, membership, and resources.
+### [General](general/index.md)
+General information about the group, membership, and resources.
 
-### [How-To Guides](howto/)
+### [How-To Guides](howto/index.md)
 Step-by-step guides and tutorials for various amateur radio activities and equipment.
 
 ## Getting Started
