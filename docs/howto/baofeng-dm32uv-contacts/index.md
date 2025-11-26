@@ -4,7 +4,9 @@ This guide explains how to get the latest DMR contact list for your Baofeng DM-3
 
 ## Download Latest Contacts
 
-The contact list is automatically generated and updated daily. You can download the latest version from the releases page of our contact filter tool.
+The contact list is generated and updated periodically. Since Brandmeister doesn't have an API to get the "Last Heard" data, a human has to use the Brandmeister "Last Heard" CSV export and feed it into our contact filter tool and make a release.
+
+You can download the latest version from the releases page of our contact filter tool from the last time it was generated.
 
 [Download Latest Contacts](https://github.com/dbehnke/contactfilter/releases)
 
