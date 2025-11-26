@@ -38,6 +38,7 @@ nav:
     - Overview: howto/index.md
     - FTX-1 and WSJTX: howto/ftx1-wsjtx-cachyos/index.md
     - Sunshine and Moonlight: howto/sunshine-and-moonlight/index.md
+    - Baofeng DM-32UV Contacts: howto/baofeng-dm32uv-contacts/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
