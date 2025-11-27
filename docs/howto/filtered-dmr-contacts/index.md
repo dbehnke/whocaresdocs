@@ -61,6 +61,11 @@ If you prefer to generate the contact list yourself or customize the filtering o
     ./contactfilter --input-csv bm_contacts.csv --filter-file countries.txt --output-csv my_contacts.csv --radio anytone --merge
     ```
 
-    Supported values for `--radio` are: `baofeng-dm32uv` (default), `anytone`, `opengd77`.
+    Supported values for `--radio` are:
+
+    - `baofeng-dm32uv` (Default)
+    - `anytone`
+    - `opengd77`
+    - `db25d`
 
 For more detailed usage instructions and options, please refer to the [project README](https://github.com/dbehnke/contactfilter/blob/main/README.md).
