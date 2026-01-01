@@ -67,3 +67,6 @@ extra:
   social:
     - icon: fontawesome/solid/radio
       link: https://whocaresradio.com
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
