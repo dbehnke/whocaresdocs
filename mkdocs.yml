@@ -33,13 +33,13 @@ nav:
   - Home: index.md
   - Allstar Hub: https://asl3.whocaresradio.com
   - General:
-    - Overview: general/index.md
+      - Overview: general/index.md
+      - URF259 Reflector: general/urf259.md
   - How-To Guides:
-    - Overview: howto/index.md
-    - FTX-1 and WSJTX: howto/ftx1-wsjtx-cachyos/index.md
-    - Filtered DMR Contacts: howto/filtered-dmr-contacts/index.md
-    - Sunshine and Moonlight: howto/sunshine-and-moonlight/index.md
-
+      - Overview: howto/index.md
+      - FTX-1 and WSJTX: howto/ftx1-wsjtx-cachyos/index.md
+      - Filtered DMR Contacts: howto/filtered-dmr-contacts/index.md
+      - Sunshine and Moonlight: howto/sunshine-and-moonlight/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -51,10 +51,14 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.mark
   - attr_list
   - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
   - search
