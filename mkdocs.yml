@@ -41,6 +41,7 @@ nav:
       - Filtered DMR Contacts: howto/filtered-dmr-contacts/index.md
       - Sunshine and Moonlight: howto/sunshine-and-moonlight/index.md
 
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
