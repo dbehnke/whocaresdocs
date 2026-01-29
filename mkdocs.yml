@@ -37,6 +37,7 @@ nav:
       - URF259 Reflector: general/urf259.md
   - How-To Guides:
       - Overview: howto/index.md
+      - Anytone DMR Roaming: howto/anytone-roaming/index.md
       - FTX-1 and WSJTX: howto/ftx1-wsjtx-cachyos/index.md
       - Filtered DMR Contacts: howto/filtered-dmr-contacts/index.md
       - Sunshine and Moonlight: howto/sunshine-and-moonlight/index.md
