@@ -10,6 +10,10 @@ Note about Anytone vs Motorola:
 
 Anytone roaming behaves differently than roaming on many Motorola radios. While Anytone radios do support automatic roaming, in practice the most reliable workflow is to perform a manual, one‑time roam on demand (select a zone, then use One Time Roaming). This documentation focuses on that on‑radio, one‑time roam workflow and shows how to program the files into CPS for that use case.
 
+Repeater ownership and etiquette:
+
+The repeaters included in these CSV files are CMEN repeaters located in Michigan. Before using any CMEN repeater, please review CMEN's rules and etiquette at https://w8cmn.net/dmr/. CMEN is not affiliated with the Who Cares Amateur Radio Group; this guide is provided as a primer only.
+
 **Benefits:**
 - **Automatic Operation**: No manual channel switching while traveling
 - **Optimal Signal**: Always connected to the strongest repeater
