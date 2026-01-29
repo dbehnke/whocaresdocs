@@ -6,6 +6,10 @@ This guide explains how to set up and use DMR roaming with Anytone radios, focus
 
 DMR roaming allows your radio to automatically select the strongest repeater from a predefined group when you're traveling or in areas with multiple repeaters. Instead of manually switching channels, the radio scans for the best signal and connects you automatically.
 
+Note about Anytone vs Motorola:
+
+Anytone roaming behaves differently than roaming on many Motorola radios. While Anytone radios do support automatic roaming, in practice the most reliable workflow is to perform a manual, one‑time roam on demand (select a zone, then use One Time Roaming). This documentation focuses on that on‑radio, one‑time roam workflow and shows how to program the files into CPS for that use case.
+
 **Benefits:**
 - **Automatic Operation**: No manual channel switching while traveling
 - **Optimal Signal**: Always connected to the strongest repeater
