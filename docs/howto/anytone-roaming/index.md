@@ -21,12 +21,13 @@ This guide includes two CSV files that work together:
 
 ### Download the Roaming Files
 
-Right-click and save these files to your computer:
+You can download the CSVs directly or grab a ZIP bundle containing both files. Click the links below (or right-click → Save As):
 
-- [**RoamingZone.CSV**](anytone-roaming/RoamingZone.CSV) - Zone definitions (8 zones)
-- [**RoamingChannel.CSV**](anytone-roaming/RoamingChannel.CSV) - Repeater details (35 repeaters)
+- [RoamingChannel.CSV](RoamingChannel.CSV) — Repeater details (35 repeaters)
+- [RoamingZone.CSV](RoamingZone.CSV) — Zone definitions (8 zones)
+- [anytone-roaming-csvs.zip](anytone-roaming-csvs.zip) — ZIP bundle containing both CSVs
 
-**File Verification:**
+File verification:
 - RoamingZone.CSV: ~10 lines, 8 zones covering Michigan areas
 - RoamingChannel.CSV: ~37 lines, 35 repeaters with technical specs
 
