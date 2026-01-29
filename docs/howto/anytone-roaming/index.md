@@ -58,27 +58,23 @@ Right-click and save these files to your computer:
 
 1. Open Anytone CPS
 2. Connect your radio to the computer
-3. Go to **Programmer → Read from Radio**
+3. Go to **Program → Read from Radio**
 4. Save the current configuration as a backup: **File → Save As** → `original_codeplug.rtcfg`
 
-### Step 2: Import Roaming Channels
+### Step 2: Import Roaming Channels and Zones
 
-1. In CPS, go to the **Digital** tab or **Channel** section
-2. Look for **Import** or **Import from CSV** option
-3. Select **RoamingChannel.CSV** that you downloaded
-4. Verify that 35 new channels are imported with proper frequencies
-5. Check that all channels use:
-   - Color Code: 1
-   - Slot: Slot 1
-   - Frequency range: 442-445 MHz (UHF)
+1. Open CPS and go to the **Tool** menu → **Import**
+2. Press the **Roaming Channel** button and pick the `RoamingChannel.CSV` file you downloaded
+3. Press the **Roaming Zone** button and pick the `RoamingZone.CSV` file you downloaded
+4. You should now see both files listed in the white file-selection box in the Import dialog
+5. Click **Import** to bring the channels and zones into CPS
+6. Verify the imports:
+   - Channels: 35 entries with correct frequencies
+   - Zones: 8 roaming zones with the correct member repeaters
 
-### Step 3: Import Roaming Zones
-
-1. In CPS, navigate to the **Roaming** or **Roaming Zone** section
-2. Select **Import** or **Import from CSV**
-3. Choose **RoamingZone.CSV** that you downloaded
-4. Verify that 8 roaming zones are imported with proper names
-5. Check that each zone contains the correct member repeaters
+Notes:
+- On the AT‑D890, the roaming settings will be under the **DMR** section in CPS. Other Anytone models place roaming under a branch off the main tree; look for **Roaming Channels** and **Roaming Zones** in the left-hand navigation.
+- Import order: import channels first, then zones if your CPS requires it. If both are imported together via the Import dialog, the tool will usually handle ordering automatically.
 
 ### Step 4: Configure Roaming Settings
 
@@ -91,7 +87,7 @@ Right-click and save these files to your computer:
 ### Step 5: Write to Radio
 
 1. Ensure your radio is connected via programming cable
-2. Go to **Programmer → Write to Radio**
+2. Go to **Program → Write to Radio**
 3. Wait for the write process to complete (may take several minutes)
 4. Radio will restart automatically when complete
 
