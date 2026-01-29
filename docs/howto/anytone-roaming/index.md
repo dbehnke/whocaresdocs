@@ -77,15 +77,7 @@ Notes:
 - On the AT‑D890, the roaming settings will be under the **DMR** section in CPS. Other Anytone models place roaming under a branch off the main tree; look for **Roaming Channels** and **Roaming Zones** in the left-hand navigation.
 - Import order: import channels first, then zones if your CPS requires it. If both are imported together via the Import dialog, the tool will usually handle ordering automatically.
 
-### Step 4: Configure Roaming Settings
-
-1. In the **Roaming** section, verify:
-   - Roaming is enabled
-   - Proper scan priorities are set
-   - RSSI thresholds are reasonable (typically -100 to -110 dBm)
-2. Save your configuration: **File → Save** → `michigan_roaming_codeplug.rtcfg`
-
-### Step 5: Write to Radio
+### Step 4: Write to Radio
 
 1. Ensure your radio is connected via programming cable
 2. Go to **Program → Write to Radio**
