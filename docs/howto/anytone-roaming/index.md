@@ -218,4 +218,6 @@ To exit roam mode and return to regular radio functions:
 - **Successful Roam**: Radio connects within 10-30 seconds
 - **Clear Signal**: Strong audio quality on connected repeater
 - **Proper Identification**: Radio shows connected repeater name/frequency
- 
+## Closing
+
+This guide is a short primer for using Anytone radios (primarily the AT‑D890) with CMEN repeaters in Michigan. It covers the on‑radio one‑time roaming workflow and how to import the provided CSV files into CPS. For full operational policies and etiquette, please refer to CMEN's site at https://w8cmn.net/dmr/. If you need more detail (advanced configuration, troubleshooting, or additional regions) please open an issue or pull request in this repository.
