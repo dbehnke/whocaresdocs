@@ -211,7 +211,7 @@ To exit roam mode and return to regular radio functions:
 ### On-Radio Testing
 1. **Zone Selection**: Select your local zone using the menu sequence above
 2. **Roaming Test**: Activate "One Time Roaming" and verify connection to known repeater
-3. **Communication Test**: Transmit on a local talk group (e.g., Michigan statewide TG 3129)
+3. **Communication Test**: Transmit on a local talk group (e.g., Michigan statewide TG 51)
 4. **Mobility Test**: If possible, test while moving within coverage area
 
 ### Expected Behavior
