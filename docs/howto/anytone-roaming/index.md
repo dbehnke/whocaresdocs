@@ -124,6 +124,14 @@ Menu (White Button) → Scroll to Roaming → Select →
 [1] One Time Roaming → (Displays "Roaming Please Wait")
 ```
 
+### Video: On‑Radio Roaming Demonstration
+
+A short demonstration showing the on‑radio steps for One‑Time Roaming:
+
+<div style="max-width:560px">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QF2Yp6VAPS0" title="On-radio One Time Roaming Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 **What Happens:**
 - Radio scans all repeaters in your selected zone
 - Automatically selects the strongest signal
