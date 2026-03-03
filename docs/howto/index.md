@@ -4,6 +4,10 @@ This section contains step-by-step guides and tutorials for amateur radio activi
 
 ## Available Guides
 
+### [Anytone DMR Roaming](anytone-roaming/index.md)
+
+Complete guide for setting up and using DMR roaming with Anytone radios. Includes Michigan-area coverage zones, step-by-step CPS programming, and beginner-friendly radio operation instructions.
+
 ### [FTX-1 and WSJTX on CachyOS](ftx1-wsjtx-cachyos/index.md)
 
 Step-by-step guide for setting up the Yaesu FTX-1 transceiver with WSJTX-Improved on CachyOS Linux, including hamlib configuration and audio routing.
